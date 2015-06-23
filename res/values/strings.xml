@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Bill Splitter</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="directions">Welcome to the Bill Splitter App. Please enter the number of guests in your party, your bill total and the percentage you wish to tip.</string>
+
+    <color name="cyan">#00FFFF</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+
+    <string name="numberInPartyTxt">Number In Party: </string>
+    <string name="billTotal">Bill Total: </string>
+    <string name="tip">Desired Tip: %</string>
+    <string name="numberInPartyInput"> Enter Party Size Here.</string>
+    <string name="billInput"> Enter Bill Total Here.</string>
+    <string name="tipInput"> Enter Desired Tip Percentage (%)</string>
+    <string name="Button"> Calculate</string>
+    <string name="exactChange"> Exact Change</string>
+    <string name="twentyFiveCents"> Round Up</string>
+    <string name="dollar"> Round Down</string>
+    <string name="percent">%</string>
+    <string name="logo">CS Labs</string>
+
+    <color name="lightPurple">#CCCCFF</color>
+
+    <string name="scrollDirections"> Select a rounding mode.</string>
+    <string name="BillTotalWithTip">Bill Total with Tip:</string>
+    <string name="Tip">Tip:</string>
+    <string name="again">Start New Calculation</string>
+    <string name="IndividualBills">Individual Bill Price:</string>
+    <string name="title_activity_display_results">DisplayResultsActivity</string>
+
+</resources>

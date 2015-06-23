@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cyan"
+    android:orientation="vertical"
+    tools:context="com.example.billsplitter.MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:gravity="center"
+        android:singleLine="false"
+        android:textSize="35sp"
+        android:text="@string/directions"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/numberInPartyTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:gravity="fill"
+        android:text="@string/numberInPartyTxt"
+        android:textColor="@color/black"
+        android:textSize="50sp" />
+
+    <EditText
+        android:id="@+id/numberInPartyEditTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:ems="10"
+        android:textSize= "50sp"
+        android:maxLength="2"
+        android:hint="@string/numberInPartyInput"
+        android:inputType="number"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/billTotalTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/billTotal"
+        android:textColor="@color/black"
+        android:textSize="50sp" />
+
+    <EditText
+        android:id="@+id/billTotalEditTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:maxLength="8"
+        android:textSize= "50sp"
+        android:ems="10"
+        android:hint="@string/billInput"
+        android:inputType="numberDecimal"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/tipTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/tip"
+        android:textColor="@color/black"
+        android:textSize="50sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textviewPercent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:text="@string/percent"
+            android:textColor="@color/black"
+            android:textSize="50sp" />
+
+        <EditText
+            android:id="@+id/tipEditTxt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.26"
+            android:background="@color/white"
+            android:ems="10"
+            android:textSize= "50sp"
+            android:maxLength="2"
+            android:gravity="center_vertical"
+            android:hint="@string/tipInput"
+            android:inputType="number"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="25dp"
+        android:background="@color/white"
+    	android:textSize= "50sp"
+        android:gravity="center"
+        android:text="@string/scrollDirections"
+        android:textColor="@color/black" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/exactButton"
+            android:layout_width="400dp"
+            android:layout_height="125dp"
+            android:layout_marginBottom="35dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/color_change"
+            android:text="@string/exactChange"
+            android:textSize="50sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/roundUp"
+            android:layout_width="335dp"
+            android:layout_height="100dp"
+            android:background="@drawable/color_change"
+            android:text="@string/twentyFiveCents"
+            android:textSize="45sp" />
+
+        <Button
+            android:id="@+id/roundDown"
+            android:layout_width="335dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:background="@drawable/color_change"
+            android:text="@string/dollar"
+            android:textSize="45sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/CalcButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/color_change"
+        android:text="@string/Button"
+        android:textColor="@color/black"
+        android:textSize="75sp" />
+
+</LinearLayout>
